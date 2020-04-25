@@ -13,6 +13,8 @@
 		AF6D60392453E63100CD717A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF6D60372453E63100CD717A /* Main.storyboard */; };
 		AF6D603B2453E63200CD717A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF6D603A2453E63200CD717A /* Assets.xcassets */; };
 		AF6D603E2453E63200CD717A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF6D603C2453E63200CD717A /* LaunchScreen.storyboard */; };
+		AF6D6046245416FD00CD717A /* apiHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6D6045245416FD00CD717A /* apiHandler.swift */; };
+		AF6D604824542FCD00CD717A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = AF6D604724542FCD00CD717A /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		AF6D603A2453E63200CD717A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF6D603D2453E63200CD717A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF6D603F2453E63200CD717A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF6D6045245416FD00CD717A /* apiHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apiHandler.swift; sourceTree = "<group>"; };
+		AF6D604724542FCD00CD717A /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +63,12 @@
 				AF6D60312453E63100CD717A /* AppDelegate.swift */,
 				AF6D60332453E63100CD717A /* SceneDelegate.swift */,
 				AF6D60352453E63100CD717A /* ViewController.swift */,
+				AF6D6045245416FD00CD717A /* apiHandler.swift */,
 				AF6D60372453E63100CD717A /* Main.storyboard */,
 				AF6D603A2453E63200CD717A /* Assets.xcassets */,
 				AF6D603C2453E63200CD717A /* LaunchScreen.storyboard */,
 				AF6D603F2453E63200CD717A /* Info.plist */,
+				AF6D604724542FCD00CD717A /* Localizable.strings */,
 			);
 			path = Canada;
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF6D603E2453E63200CD717A /* LaunchScreen.storyboard in Resources */,
+				AF6D604824542FCD00CD717A /* Localizable.strings in Resources */,
 				AF6D603B2453E63200CD717A /* Assets.xcassets in Resources */,
 				AF6D60392453E63100CD717A /* Main.storyboard in Resources */,
 			);
@@ -141,6 +148,7 @@
 				AF6D60362453E63100CD717A /* ViewController.swift in Sources */,
 				AF6D60322453E63100CD717A /* AppDelegate.swift in Sources */,
 				AF6D60342453E63100CD717A /* SceneDelegate.swift in Sources */,
+				AF6D6046245416FD00CD717A /* apiHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
