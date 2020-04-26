@@ -15,6 +15,7 @@
 		AF6D603E2453E63200CD717A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF6D603C2453E63200CD717A /* LaunchScreen.storyboard */; };
 		AF6D6046245416FD00CD717A /* apiHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6D6045245416FD00CD717A /* apiHandler.swift */; };
 		AF6D604824542FCD00CD717A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = AF6D604724542FCD00CD717A /* Localizable.strings */; };
+		AF6D604A2454396600CD717A /* CanadaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6D60492454396600CD717A /* CanadaTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		AF6D603F2453E63200CD717A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF6D6045245416FD00CD717A /* apiHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apiHandler.swift; sourceTree = "<group>"; };
 		AF6D604724542FCD00CD717A /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		AF6D60492454396600CD717A /* CanadaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanadaTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				AF6D60312453E63100CD717A /* AppDelegate.swift */,
 				AF6D60332453E63100CD717A /* SceneDelegate.swift */,
 				AF6D60352453E63100CD717A /* ViewController.swift */,
+				AF6D60492454396600CD717A /* CanadaTableViewCell.swift */,
 				AF6D6045245416FD00CD717A /* apiHandler.swift */,
 				AF6D60372453E63100CD717A /* Main.storyboard */,
 				AF6D603A2453E63200CD717A /* Assets.xcassets */,
@@ -147,6 +150,7 @@
 			files = (
 				AF6D60362453E63100CD717A /* ViewController.swift in Sources */,
 				AF6D60322453E63100CD717A /* AppDelegate.swift in Sources */,
+				AF6D604A2454396600CD717A /* CanadaTableViewCell.swift in Sources */,
 				AF6D60342453E63100CD717A /* SceneDelegate.swift in Sources */,
 				AF6D6046245416FD00CD717A /* apiHandler.swift in Sources */,
 			);
@@ -293,6 +297,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L7G38S6868;
 				INFOPLIST_FILE = Canada/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -311,6 +316,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L7G38S6868;
 				INFOPLIST_FILE = Canada/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (

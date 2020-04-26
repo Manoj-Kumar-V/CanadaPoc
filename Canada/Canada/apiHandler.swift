@@ -11,10 +11,10 @@ import UIKit
 
 struct CanadaResponse: Decodable {
     let title: String?
-    let rows: [row]?
+    let rows: [Row]?
 }
 
-struct row: Decodable {
+struct Row: Decodable {
     let title: String?
     let description: String?
     let imageHref: String?
@@ -39,7 +39,7 @@ class apiHandler {
             
             // ensure there is data returned from this HTTPS response
             guard let content = data else {
-                print(NSLocalizedString("No data", comment: "No data"))
+                print(NSLocalizedString("NO_DATA", comment: "NO_DATA"))
                 return
             }
             let tempStr = String.init(data: content, encoding: String.Encoding.isoLatin1)
